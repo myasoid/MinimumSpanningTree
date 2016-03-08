@@ -45,7 +45,7 @@ public class TelephoneNetworkTest {
         return Arrays.asList(arr);
     }
 
-    @Test(timeout = 300000)
+    @Test(timeout = 1000)
     public void test() {
         System.out.println(fileName);
         In in = new In(fileName);
